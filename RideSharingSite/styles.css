@@ -1,0 +1,51 @@
+/* Reset some default margin for the body */
+body {
+    margin: 0;
+  }
+  
+  /* Add some padding to the body to avoid content being too close to the edges */
+  body {
+    padding-top: 56px; /* Adjust based on the height of your navbar */
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Customize the color of hyperlinks */
+  a {
+    color: #007bff;
+  }
+  
+  /* Style headings */
+  h1, h2, h3, h4, h5, h6 {
+    color: #343a40;
+  }
+  
+  /* Add a subtle box shadow to sections for separation */
+  section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* Add some spacing between paragraphs */
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Add responsive margin to the top and bottom of the container */
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+  }

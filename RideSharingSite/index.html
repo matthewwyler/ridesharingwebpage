@@ -1,0 +1,139 @@
+<!-- Author: Matthew Wyler
+
+Student ID: W0249002
+
+Course: IT Generalist
+
+Date: Nov 27 2023
+
+Project: Responsive Web Site with Bootstrap 5 Quick Start with Navigation
+
+Version: HTML Bootstrap 5
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Ride Sharing</title>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NSCC RideShare</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Need a Ride</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Give a Ride</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Welcome to RideShare</h1>
+            <p>Your go-to platform for convenient and affordable rides at NSCC.</p>
+          </div>
+          <div class="col-lg-6">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Drivers and Riders Section -->
+    <section id="drivers-riders">
+        <div class="container">
+          <!-- Add your content within this container -->
+          <h2>Join Us as a Driver or Rider</h2>
+          <p>Experience the convenience of ride-sharing. Whether you're looking to drive or need a ride.</p>
+          <!-- Add any other content or buttons as needed -->
+        </div>
+      </section>
+      <!-- Testimonies Section -->
+      <section id="testimonies">
+        <div class="container">
+          <!-- Add your content within this container -->
+          <h2>What Our Users Say</h2>
+          <p>Read the experiences of our satisfied drivers and riders.</p>
+          <!-- Add any other content, testimonials, or carousel as needed -->
+        </div>
+      </section>
+      <!-- FAQs Section -->
+    <section id="faqs">
+        <div class="container">
+          <!-- Add your content within this container -->
+          <h2>Frequently Asked Questions</h2>
+          <p>Have a question? Check out our FAQs below.</p>
+          <!-- Add your FAQs content, such as using accordions or a list -->
+          <div class="accordion" id="faqAccordion">
+            <!-- FAQ items go here -->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faqHeading1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapse1"
+                  aria-expanded="true" aria-controls="faqCollapse1">
+                  What is the most common place to be picked up?
+                </button>
+              </h2>
+              <div id="faqCollapse1" class="accordion-collapse collapse show" aria-labelledby="faqHeading1"
+                data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Tim Hortons.
+                </div>
+              </div>
+            </div>
+            <!-- Add more FAQ items as needed -->
+          </div>
+        </div>
+      </section>
+      <!-- Safety Section -->
+    <section id="safety">
+        <div class="container">
+          <!-- Add your content within this container -->
+          <h2>Ride with Confidence - Safety First!</h2>
+          <p>Your safety is our top priority. Learn about the safety measures we take to ensure a secure ride.</p>
+          <!-- Add any safety-related content, tips, or images as needed -->
+        </div>
+      </section>
+       <!-- Footer Section -->
+      <footer>
+        <div class="container">
+          <!-- Add your content within this container -->
+          <p>&copy; 2023 &ndash; Matthew Wyler</p>
+        </div>
+      </footer>
+    </main>
+  </main>
+
+  <!-- Bootstrap JS and Popper.js (for Bootstrap components that require JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
